@@ -15,33 +15,43 @@ body {
 }
 
 .sidebar {
-  width: 250px;
+  width: 260px;
   background: linear-gradient(180deg, #071e3d, #0b3d63);
   color: white;
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
 }
 
 .sidebar h2 {
   margin: 0;
-  font-size: 28px;
+  font-size: 29px;
 }
 
 .sidebar p {
   color: #b6d4f0;
-  margin-bottom: 40px;
+  margin-top: 8px;
 }
 
 .sidebar nav {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 16px;
 }
 
 .sidebar nav span {
-  padding: 13px 15px;
-  border-radius: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
   background: rgba(255, 255, 255, 0.08);
   cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.sidebar nav span:hover,
+.sidebar nav .active {
+  background: rgba(255, 255, 255, 0.18);
+  transform: translateX(4px);
 }
 
 .main {
@@ -52,22 +62,23 @@ body {
 .hero {
   background: linear-gradient(135deg, #0b63ce, #13a8a8);
   color: white;
-  border-radius: 24px;
+  border-radius: 26px;
   padding: 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 15px 35px rgba(11, 99, 206, 0.25);
+  box-shadow: 0 16px 35px rgba(11, 99, 206, 0.25);
 }
 
 .hero h1 {
-  font-size: 36px;
+  font-size: 38px;
   margin: 0 0 12px;
 }
 
 .hero p {
-  max-width: 700px;
+  max-width: 730px;
   line-height: 1.6;
+  margin: 0;
 }
 
 .badge {
@@ -76,6 +87,7 @@ body {
   padding: 12px 18px;
   border-radius: 30px;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .cards {
@@ -88,8 +100,8 @@ body {
 .card {
   background: white;
   padding: 25px;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  border-radius: 22px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
 }
 
 .card span {
@@ -97,7 +109,7 @@ body {
 }
 
 .card h3 {
-  font-size: 30px;
+  font-size: 31px;
   margin: 12px 0 0;
 }
 
@@ -108,15 +120,19 @@ body {
 }
 
 .form-box,
-.result-box {
+.result-box,
+.chart-box,
+.wide-chart {
   background: white;
   border-radius: 24px;
   padding: 30px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
 }
 
 .form-box h2,
-.result-box h2 {
+.result-box h2,
+.chart-box h3,
+.wide-chart h3 {
   margin-top: 0;
 }
 
@@ -136,6 +152,13 @@ input {
   border-radius: 12px;
   font-size: 15px;
   outline: none;
+  background: white;
+}
+
+select:focus,
+input:focus {
+  border-color: #0b63ce;
+  box-shadow: 0 0 0 3px rgba(11, 99, 206, 0.12);
 }
 
 button {
@@ -149,15 +172,17 @@ button {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.2s ease;
 }
 
 button:hover {
   background: #084c9e;
+  transform: translateY(-1px);
 }
 
 .empty {
   color: #829ab1;
-  margin-top: 50px;
+  margin-top: 55px;
   text-align: center;
 }
 
@@ -201,4 +226,41 @@ button:hover {
   margin-top: 25px;
   color: #627d98;
   line-height: 1.6;
+}
+
+.charts {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.wide-chart {
+  margin-top: 28px;
+}
+
+@media (max-width: 1000px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .panel,
+  .cards,
+  .charts {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .result-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
