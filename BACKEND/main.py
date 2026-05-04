@@ -2,9 +2,12 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import joblib
 import pandas as pd
-from datetime import datetime
+from pathlib import Path
 
 app = FastAPI()
+
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR.parent / "ML" / "model.pkl"
 
 # Autoriser le frontend à communiquer avec le backend
 app.add_middleware(
@@ -16,7 +19,7 @@ app.add_middleware(
 )
 
 # Charger le modèle ML
-model = joblib.load("../ML/model.pkl")
+model = joblib.load(MODEL_PATH)
 
 @app.get("/")
 def home():
@@ -25,24 +28,44 @@ def home():
 @app.get("/predict")
 def predict(
     type_transaction: str = "depense",
-    categorie: int = 1,
+    categorie: str = "nourriture",
     date: str = "2026-05-01"
 ):
-    # transformer revenu/depense en nombre
-    type_value = 1 if type_transaction == "revenu" else 0
+    categories = {
+        "abonnement": 0,
+        "aide_familiale": 1,
+        "assurance": 2,
+        "banque": 3,
+        "bourse": 4,
+        "energie": 5,
+        "formation": 6,
+        "freelance": 7,
+        "fournitures": 8,
+        "job_etudiant": 9,
+        "loisirs": 10,
+        "loyer": 11,
+        "nourriture": 12,
+        "restaurant": 13,
+        "salaire": 14,
+        "sante": 15,
+        "shopping": 16,
+        "telephone": 17,
+        "transport": 18
+    }
 
-    # transformer date
+    type_transaction = type_transaction.lower()
+    categorie = categorie.lower()
+    type_value = 1 if type_transaction == "revenu" else 0
+    categorie_code = categories.get(categorie, categories["nourriture"])
     date_value = pd.to_datetime(date).toordinal()
 
-    # créer les données pour prédiction
-    data = [[type_value, categorie, date_value]]
-
-    # prédire le montant
+    data = [[type_value, categorie_code, date_value]]
     prediction = model.predict(data)[0]
 
     return {
         "type": type_transaction,
-        "categorie_code": categorie,
+        "categorie": categorie,
+        "categorie_code": categorie_code,
         "date": date,
         "montant_predit": round(float(prediction), 2)
     }
