@@ -1,0 +1,242 @@
+date,type,categorie,montant,description,is_anomaly,solde_apres_transaction
+2025-09-01,revenu,salaire,1677,Salaire mensuel,0,2177
+2025-09-02,depense,loyer,648,Loyer mensuel,0,1529
+2025-09-02,revenu,aide_familiale,485,Transfert famille,0,2014
+2025-09-03,depense,transport,75,Navigo mensuel,0,1939
+2025-09-03,depense,formation,55,Cours en ligne,0,1884
+2025-09-05,depense,telephone,23,Forfait mobile,0,1861
+2025-09-06,depense,abonnement,15,Abonnement mensuel,0,1846
+2025-09-06,revenu,aide_familiale,395,Aide familiale,0,2241
+2025-09-07,depense,fournitures,81,Accessoires,0,2160
+2025-09-07,revenu,bourse,438,Bourse étudiante,0,2598
+2025-09-10,depense,telephone,21,Recharge téléphone,0,2577
+2025-09-11,revenu,aide_familiale,409,Transfert famille,0,2986
+2025-09-11,depense,restaurant,37,Restaurant,0,2949
+2025-09-12,depense,sante,88,Pharmacie,0,2861
+2025-09-12,revenu,aide_familiale,422,Revenu complémentaire,0,3283
+2025-09-13,depense,assurance,27,Assurance santé,0,3256
+2025-09-13,depense,shopping,23,Achat vêtements,0,3233
+2025-09-13,depense,shopping,155,Achat vêtements,0,3078
+2025-09-13,depense,abonnement,21,Prime,0,3057
+2025-09-15,revenu,salaire,1390,Salaire mensuel,0,4447
+2025-09-16,depense,loyer,719,Loyer mensuel,0,3728
+2025-09-16,depense,telephone,22,Forfait mobile,0,3706
+2025-09-16,depense,abonnement,59,Netflix,0,3647
+2025-09-17,depense,formation,213,Livre technique,0,3434
+2025-09-17,depense,formation,149,Formation,0,3285
+2025-09-17,depense,formation,171,Cours en ligne,0,3114
+2025-09-18,revenu,aide_familiale,419,Transfert famille,0,3533
+2025-09-19,depense,energie,79,Énergie,0,3454
+2025-09-20,revenu,job_etudiant,429,Job week-end,0,3883
+2025-09-22,depense,fournitures,89,Accessoires,0,3794
+2025-09-22,depense,nourriture,138,Courses alimentaires,0,3656
+2025-09-24,depense,assurance,27,Assurance habitation,0,3629
+2025-09-25,depense,telephone,21,Recharge téléphone,0,3608
+2025-09-26,revenu,aide_familiale,216,Transfert famille,0,3824
+2025-09-27,depense,shopping,124,Shopping,0,3700
+2025-09-28,depense,loisirs,83,Activité loisir,0,3617
+2025-09-29,revenu,aide_familiale,222,Aide familiale,0,3839
+2025-09-30,revenu,aide_familiale,191,Transfert famille,0,4030
+2025-09-30,depense,restaurant,71,Repas extérieur,0,3959
+2025-10-01,revenu,bourse,276,Bourse étudiante,0,4235
+2025-10-01,revenu,salaire,1566,Salaire mensuel,0,5801
+2025-10-02,depense,loyer,628,Loyer mensuel,0,5173
+2025-10-03,depense,shopping,62,Achat en ligne,0,5111
+2025-10-03,depense,abonnement,58,Netflix,0,5053
+2025-10-03,depense,transport,75,Navigo mensuel,0,4978
+2025-10-05,depense,telephone,17,Forfait mobile,0,4961
+2025-10-05,depense,fournitures,75,Accessoires,0,4886
+2025-10-06,depense,abonnement,15,Abonnement mensuel,0,4871
+2025-10-07,depense,restaurant,80,Fast-food,0,4791
+2025-10-08,depense,loyer,604,Résidence étudiante,0,4187
+2025-10-09,revenu,freelance,486,Revenu complémentaire,0,4673
+2025-10-10,depense,restaurant,19,Repas extérieur,0,4654
+2025-10-10,depense,nourriture,158,Achat alimentation,0,4496
+2025-10-11,depense,transport,64,Navigo,0,4432
+2025-10-11,depense,shopping,97,Shopping,0,4335
+2025-10-11,depense,banque,25,Commission bancaire,0,4310
+2025-10-12,depense,loisirs,91,Activité loisir,0,4219
+2025-10-13,depense,telephone,18,Recharge téléphone,0,4201
+2025-10-13,revenu,job_etudiant,468,Travail étudiant,0,4669
+2025-10-16,depense,banque,19,Frais bancaires,0,4650
+2025-10-18,revenu,aide_familiale,344,Aide familiale,0,4994
+2025-10-18,depense,shopping,980,Achat exceptionnel très élevé,1,4014
+2025-10-20,depense,sante,45,Médicaments,0,3969
+2025-10-25,depense,energie,61,Énergie,0,3908
+2025-10-25,depense,telephone,30,Recharge téléphone,0,3878
+2025-10-27,depense,banque,18,Commission bancaire,0,3860
+2025-10-27,revenu,job_etudiant,410,Mission ponctuelle,0,4270
+2025-10-28,depense,telephone,24,Recharge téléphone,0,4246
+2025-10-29,revenu,aide_familiale,305,Transfert famille,0,4551
+2025-10-30,depense,restaurant,52,Restaurant,0,4499
+2025-11-01,revenu,salaire,1287,Salaire mensuel,0,5786
+2025-11-01,revenu,salaire,1682,Salaire mensuel,0,7468
+2025-11-02,depense,loyer,759,Loyer mensuel,0,6709
+2025-11-02,depense,energie,92,Facture électricité,0,6617
+2025-11-03,depense,shopping,134,Achat vêtements,0,6483
+2025-11-03,depense,transport,86,Navigo mensuel,0,6397
+2025-11-04,revenu,salaire,1294,Salaire mensuel,0,7691
+2025-11-04,revenu,freelance,99,Mission freelance,0,7790
+2025-11-04,revenu,salaire,1317,Salaire mensuel,0,9107
+2025-11-05,depense,telephone,22,Forfait mobile,0,9085
+2025-11-05,depense,nourriture,175,Achat alimentation,0,8910
+2025-11-06,depense,abonnement,35,Abonnement mensuel,0,8875
+2025-11-07,depense,nourriture,81,Courses alimentaires,0,8794
+2025-11-10,depense,loyer,833,Résidence étudiante,0,7961
+2025-11-11,revenu,aide_familiale,384,Aide familiale,0,8345
+2025-11-12,depense,banque,12,Frais bancaires,0,8333
+2025-11-13,depense,energie,114,Énergie,0,8219
+2025-11-13,depense,banque,19,Commission bancaire,0,8200
+2025-11-13,depense,banque,16,Frais bancaires,0,8184
+2025-11-15,depense,banque,9,Commission bancaire,0,8175
+2025-11-16,revenu,freelance,392,Mission freelance,0,8567
+2025-11-16,revenu,bourse,461,Bourse étudiante,0,9028
+2025-11-17,depense,assurance,20,Assurance santé,0,9008
+2025-11-17,depense,restaurant,27,Repas extérieur,0,8981
+2025-11-18,revenu,job_etudiant,264,Job week-end,0,9245
+2025-11-19,depense,restaurant,30,Restaurant,0,9215
+2025-11-22,depense,restaurant,420,Restaurant très inhabituel,1,8795
+2025-11-23,depense,telephone,18,Recharge téléphone,0,8777
+2025-11-25,depense,energie,70,Énergie,0,8707
+2025-11-26,depense,assurance,40,Assurance habitation,0,8667
+2025-11-28,depense,banque,19,Commission bancaire,0,8648
+2025-11-29,depense,transport,89,Transport mensuel,0,8559
+2025-11-30,depense,loisirs,49,Sortie,0,8510
+2025-12-01,revenu,salaire,1353,Salaire mensuel,0,9863
+2025-12-02,depense,loyer,660,Loyer mensuel,0,9203
+2025-12-02,depense,assurance,49,Assurance habitation,0,9154
+2025-12-03,depense,abonnement,21,Abonnement logiciel,0,9133
+2025-12-03,depense,transport,89,Navigo mensuel,0,9044
+2025-12-05,depense,telephone,28,Forfait mobile,0,9016
+2025-12-06,depense,abonnement,20,Abonnement mensuel,0,8996
+2025-12-08,depense,banque,8,Frais bancaires,0,8988
+2025-12-09,depense,fournitures,59,Accessoires,0,8929
+2025-12-12,depense,abonnement,299,Abonnement anormalement élevé,1,8630
+2025-12-15,revenu,job_etudiant,172,Revenu complémentaire,0,8802
+2025-12-15,depense,banque,3,Frais bancaires,0,8799
+2025-12-16,depense,shopping,139,Achat en ligne,0,8660
+2025-12-18,depense,sante,41,Pharmacie,0,8619
+2025-12-21,depense,energie,108,Énergie,0,8511
+2025-12-21,depense,shopping,89,Shopping,0,8422
+2025-12-21,depense,shopping,49,Achat en ligne,0,8373
+2025-12-23,revenu,job_etudiant,449,Mission ponctuelle,0,8822
+2025-12-23,depense,assurance,55,Assurance habitation,0,8767
+2025-12-24,revenu,freelance,540,Paiement client,0,9307
+2025-12-26,depense,fournitures,81,Matériel scolaire,0,9226
+2025-12-29,depense,banque,14,Commission bancaire,0,9212
+2026-01-01,revenu,salaire,1397,Salaire mensuel,0,10609
+2026-01-02,depense,loyer,717,Loyer mensuel,0,9892
+2026-01-03,depense,loisirs,66,Cinéma,0,9826
+2026-01-03,depense,transport,75,Navigo mensuel,0,9751
+2026-01-03,depense,telephone,25,Forfait mobile,0,9726
+2026-01-03,depense,assurance,45,Assurance habitation,0,9681
+2026-01-03,depense,energie,73,Gaz,0,9608
+2026-01-04,depense,restaurant,72,Repas extérieur,0,9536
+2026-01-05,depense,telephone,26,Forfait mobile,0,9510
+2026-01-06,depense,abonnement,20,Abonnement mensuel,0,9490
+2026-01-07,depense,sante,20,Médicaments,0,9470
+2026-01-07,depense,shopping,47,Shopping,0,9423
+2026-01-09,depense,banque,180,Frais bancaires inhabituels,1,9243
+2026-01-10,depense,fournitures,70,Matériel scolaire,0,9173
+2026-01-11,revenu,salaire,1447,Salaire mensuel,0,10620
+2026-01-12,depense,loisirs,36,Activité loisir,0,10584
+2026-01-14,revenu,freelance,296,Mission freelance,0,10880
+2026-01-16,depense,loisirs,26,Sortie,0,10854
+2026-01-17,depense,formation,177,Livre technique,0,10677
+2026-01-18,depense,nourriture,88,Courses alimentaires,0,10589
+2026-01-20,depense,shopping,22,Achat vêtements,0,10567
+2026-01-20,depense,loyer,759,Résidence étudiante,0,9808
+2026-01-20,depense,telephone,31,Recharge téléphone,0,9777
+2026-01-21,depense,abonnement,57,Netflix,0,9720
+2026-01-25,depense,sante,66,Consultation,0,9654
+2026-01-29,depense,transport,85,Transport mensuel,0,9569
+2026-01-29,depense,restaurant,66,Restaurant,0,9503
+2026-01-29,revenu,bourse,455,Bourse étudiante,0,9958
+2026-01-30,depense,fournitures,39,Matériel scolaire,0,9919
+2026-01-31,depense,energie,96,Énergie,0,9823
+2026-01-31,depense,assurance,35,Assurance santé,0,9788
+2026-02-01,revenu,salaire,1372,Salaire mensuel,0,11160
+2026-02-02,depense,loyer,737,Loyer mensuel,0,10423
+2026-02-03,depense,transport,89,Navigo mensuel,0,10334
+2026-02-04,revenu,salaire,1412,Salaire mensuel,0,11746
+2026-02-05,depense,telephone,18,Forfait mobile,0,11728
+2026-02-06,depense,fournitures,82,Accessoires,0,11646
+2026-02-06,depense,abonnement,35,Abonnement mensuel,0,11611
+2026-02-07,depense,nourriture,141,Achat alimentation,0,11470
+2026-02-08,depense,fournitures,62,Accessoires,0,11408
+2026-02-09,depense,nourriture,58,Achat alimentation,0,11350
+2026-02-10,depense,transport,70,Recharge transport,0,11280
+2026-02-11,revenu,job_etudiant,529,Mission ponctuelle,0,11809
+2026-02-15,depense,sante,66,Médicaments,0,11743
+2026-02-16,depense,abonnement,25,Netflix,0,11718
+2026-02-17,revenu,aide_familiale,359,Transfert famille,0,12077
+2026-02-17,depense,sante,80,Médicaments,0,11997
+2026-02-17,depense,shopping,107,Achat vêtements,0,11890
+2026-02-17,depense,formation,890,Formation coûteuse exceptionnelle,1,11000
+2026-02-18,revenu,job_etudiant,415,Revenu complémentaire,0,11415
+2026-02-18,depense,telephone,32,Recharge téléphone,0,11383
+2026-02-19,depense,sante,50,Pharmacie,0,11333
+2026-02-21,revenu,bourse,319,Bourse étudiante,0,11652
+2026-02-21,depense,nourriture,177,Achat alimentation,0,11475
+2026-02-23,depense,loisirs,110,Activité loisir,0,11365
+2026-02-23,depense,loisirs,74,Sortie,0,11291
+2026-02-24,depense,loisirs,14,Cinéma,0,11277
+2026-02-26,revenu,freelance,185,Mission freelance,0,11462
+2026-02-26,depense,assurance,63,Assurance habitation,0,11399
+2026-02-27,revenu,salaire,1375,Salaire mensuel,0,12774
+2026-03-01,revenu,salaire,1448,Salaire mensuel,0,14222
+2026-03-02,depense,loyer,637,Loyer mensuel,0,13585
+2026-03-02,depense,fournitures,55,Fournitures,0,13530
+2026-03-02,depense,loisirs,52,Sortie,0,13478
+2026-03-02,depense,energie,42,Facture électricité,0,13436
+2026-03-03,depense,loisirs,60,Cinéma,0,13376
+2026-03-03,depense,transport,75,Navigo mensuel,0,13301
+2026-03-03,depense,sante,61,Pharmacie,0,13240
+2026-03-04,revenu,job_etudiant,336,Mission ponctuelle,0,13576
+2026-03-05,depense,transport,350,Transport anormalement élevé,1,13226
+2026-03-05,depense,telephone,22,Forfait mobile,0,13204
+2026-03-06,depense,abonnement,20,Abonnement mensuel,0,13184
+2026-03-08,depense,banque,12,Frais bancaires,0,13172
+2026-03-10,depense,energie,128,Facture électricité,0,13044
+2026-03-11,depense,formation,132,Livre technique,0,12912
+2026-03-11,depense,restaurant,32,Restaurant,0,12880
+2026-03-11,depense,energie,60,Gaz,0,12820
+2026-03-11,revenu,aide_familiale,324,Aide familiale,0,13144
+2026-03-12,depense,fournitures,43,Accessoires,0,13101
+2026-03-12,depense,formation,201,Livre technique,0,12900
+2026-03-15,depense,sante,76,Médicaments,0,12824
+2026-03-15,depense,formation,232,Formation,0,12592
+2026-03-16,depense,transport,58,Recharge transport,0,12534
+2026-03-17,depense,fournitures,73,Fournitures,0,12461
+2026-03-23,revenu,salaire,1555,Salaire mensuel,0,14016
+2026-03-25,depense,banque,9,Commission bancaire,0,14007
+2026-03-26,depense,loyer,833,Résidence étudiante,0,13174
+2026-03-26,revenu,freelance,556,Paiement client,0,13730
+2026-03-28,depense,energie,108,Facture électricité,0,13622
+2026-03-28,depense,shopping,129,Shopping,0,13493
+2026-03-30,depense,sante,19,Médicaments,0,13474
+2026-03-31,depense,loisirs,51,Cinéma,0,13423
+2026-04-01,depense,loyer,720,Loyer mensuel,0,12703
+2026-04-01,revenu,aide_familiale,330,Aide familiale,0,13033
+2026-04-01,revenu,salaire,1469,Salaire mensuel,0,14502
+2026-04-02,depense,shopping,57,Achat en ligne,0,14445
+2026-04-02,depense,loyer,645,Loyer mensuel,0,13800
+2026-04-03,depense,transport,86,Navigo mensuel,0,13714
+2026-04-05,depense,telephone,23,Forfait mobile,0,13691
+2026-04-06,depense,sante,23,Consultation,0,13668
+2026-04-06,depense,abonnement,35,Abonnement mensuel,0,13633
+2026-04-07,revenu,freelance,631,Mission freelance,0,14264
+2026-04-08,depense,restaurant,70,Fast-food,0,14194
+2026-04-08,revenu,bourse,344,Bourse étudiante,0,14538
+2026-04-14,depense,nourriture,105,Supermarché,0,14433
+2026-04-14,depense,restaurant,59,Fast-food,0,14374
+2026-04-16,depense,shopping,59,Achat en ligne,0,14315
+2026-04-17,depense,nourriture,58,Courses alimentaires,0,14257
+2026-04-19,depense,loisirs,15,Activité loisir,0,14242
+2026-04-19,depense,fournitures,39,Accessoires,0,14203
+2026-04-19,depense,transport,55,Navigo,0,14148
+2026-04-19,depense,loisirs,760,Dépense loisir exceptionnelle,1,13388
+2026-04-21,revenu,freelance,283,Mission freelance,0,13671
+2026-04-24,depense,abonnement,39,Netflix,0,13632
+2026-04-26,depense,restaurant,33,Fast-food,0,13599
+2026-04-27,depense,nourriture,87,Courses alimentaires,0,13512
